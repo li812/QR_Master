@@ -5,7 +5,7 @@ from tkinter import filedialog
 class QRGenerator:
     def __init__(self, master):
         self.master = master
-        master.title("QR Code Generator")
+        master.title("QR_Master")
         master.geometry("400x450")
 
         self.label = Label(master, text="Enter data to generate QR code:")
